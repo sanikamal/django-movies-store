@@ -1,63 +1,68 @@
-# Movies Store Web Application with Django 5 and Bootstrap 5
+# Movies Store Web Application with Django and Bootstrap 🎬
 
-This project is a Movies Store web application built with Django 5 and Bootstrap 5. The application allows users to view available movies, add them to the cart, and place orders. The application also includes an admin panel to manage the store’s information. A full-stack web application, covering key Django features like URLs, views, templates, models, authentication, and deploy the application on google app engine.
+This project is a Movies Store web application built with Django 5 and Bootstrap 5. The application allows users to view available movies, add them to the cart, and place orders. It also includes an admin panel to manage the store’s information. This full-stack web application covers key Django features such as URLs, views, templates, models, authentication, and the deployment of the application on Google App Engine.
 
-## Table of Contents
+## Table of Contents 📑
 
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
+- [Contributing](#contributing)
 - [Acknowledgments](#acknowledgments)
 
+## Features ✨
 
+- ✅ Utilize key Django features (URLs, templates, models, forms)
+- 📱 Implement responsive user interfaces using Bootstrap
+- 💾 Manage data storage effectively in databases
+- ⚙️ Explore the powerful built-in Django admin interface
+- 🔐 Harness Django's built-in authentication system
+- 🌐 Deploy your Django project on the internet with Google App Engine
+- 🛒 Implement a shopping cart with order functionality
+- 🔍 Implement search functionality to filter movies by name
+- 🖊️ Allow users to post reviews for movies
+- 💳 Users can add/remove movies from the cart and proceed with purchases
 
-<!-- ## Features:
-* Understand and use Django key features, including URLs, templates, models, and forms
-* Implement responsive user interfaces using Bootstrap
-* Manage data storage in databases effectively
-* Explore the powerful built-in admin interface with Django
-* Harness Django's powerful built-in authentication system
-* Deploy your Django project on the internet for users to access
-* Create a full-stack web application with Django and Bootstrap
-* Implement a shopping cart and orders functionality
-* Manage the store's information using the admin panel
-* Enable users to register and log in to the application
-* Display the orders placed by the logged-in user
-* Implement a search functionality to filter movies by name
-* Enable users to add movies to the cart and proceed with purchases
-* Allow users to remove movies from the cart
-* Display the total price to be paid in the cart
-* Enable users to log out of the application
-* Display a welcoming message on the home page
-* Provide details about the Movies Store on the About page
-* Exhibit information on available movies on the Movies page
-* Display the details of a specific movie and post reviews
-* Create, update, delete, and list information in the admin panel 
+### Detailed Pages:
+- **Movies Page**: Displays available movies with a search filter. Users can click to view details and post reviews.
+- **Cart Page**: Shows movies in the cart and their total price. Users can remove items or proceed with purchase.
+- **Register Page**: Form for users to sign up.
+- **Login Page**: Form for users to log in.
+- **Orders Page**: Displays the logged-in user's past orders.
+- **Admin Panel**: Manage the store’s information (create, update, delete, list).
 
-    The Movies page will exhibit information on available movies and include a filter to search movies by name. Additionally, users can click on a specific movie to view its details and post reviews.
-    The Cart page will showcase the movies added to the cart, along with the total price to be paid. Users can also remove movies from the cart and proceed with purchases.
-    The Register page will present a form enabling users to sign up for accounts.
-    The Login page will present a form allowing users to log in to the application.
-    The Orders page will display the orders placed by the logged-in user.
-    The Admin panel will encompass sections to manage the store’s information, including creating, updating, deleting, and listing information. -->
+## Installation ⚙️
 
-<!-- ## Installation
-1. Clone the repository
-2. Install the required packages
-3. Run the server
+To set up the Movies Store web application locally, follow these steps:
 
-```bash
-git clone https://github
-cd django-movies-store
-pip install -r requirements.txt
-python manage.py runserver -->
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sanikamal/django-movies-store
+   cd django-movies-store
+   ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+2. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+3. Run the development server:
+   ```bash
+   python manage.py runserver
+   ```
+
+## Contributing 🤝
+
+Contributions are welcome! If you have suggestions or would like to contribute to the project, feel free to fork the repository and submit a pull request. For major changes, please open an issue first to discuss the proposed modifications.
+
+## License 📄
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments 🙏
+
+- The project uses [Django](https://www.djangoproject.com/) for backend development.
+- [Bootstrap 5](https://getbootstrap.com/) is used for creating responsive and modern front-end designs.
 
 
