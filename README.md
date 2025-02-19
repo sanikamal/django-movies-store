@@ -62,7 +62,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments 🙏
 
-- The project uses [Django](https://www.djangoproject.com/) for backend development.
+- [Django](https://www.djangoproject.com/) for backend development.
 - [Bootstrap 5](https://getbootstrap.com/) is used for creating responsive and modern front-end designs.
 
 
